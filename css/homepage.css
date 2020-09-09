@@ -26,7 +26,7 @@ body{
     width: 25%;
     color: #333333;
     padding: 20px;
-     font-size: 14px;
+    font-size: 14px;
     text-decoration: none;
     font-family: 'Optima';
     font-style: bold;
@@ -223,12 +223,14 @@ body{
     font-family: 'optima';
     font-style: bold;
     font-size: 15px;
-    
-    
+    margin-top: 0%;
+    margin-bottom: 30px;   
 }
 .index {
     display: inline-block;
     padding: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .index ul{
     display: flex;
@@ -250,9 +252,13 @@ body{
 footer{
     display: flex;
     height: 50px;
+    background-color: #A2A2A2;
     justify-content: flex-start;
     align-items: center;
     list-style: none;
+    padding-bottom: 50px;
+    margin: 0%;
+
 }   
 footer ul{
     display: flex;
@@ -264,7 +270,7 @@ footer a{
     display: inline-block;
     color: #333333;
     font-size: 14px;
-    padding: 35px;
+    padding: 25px;
     text-decoration: none;
      font-family: 'optima';
      font-style: bold;
@@ -272,7 +278,7 @@ footer a{
  }
 .copyright p{
     display: inline-block;
-    padding: 300px;
+    padding-left: 300px;
     color: #333333;
 }
 
