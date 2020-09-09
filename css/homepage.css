@@ -99,7 +99,7 @@ body{
     grid-column: 0;
     grid-row: 1;
     padding-left: 5px;
-    width: 700px;
+    width: auto;
     height: 400px;   
 }
 .bgc button{
@@ -151,7 +151,7 @@ body{
     grid-column: 1;
     grid-row: 1;
     padding-left: 5px;
-    width: 700px;
+    width: auto;
     height: 400px;   
 }
 .nasa button{
@@ -203,7 +203,7 @@ body{
     grid-column: 1;
     grid-row: 1;
     padding-left: 5px;
-    width: 700px;
+    width: auto;
     height: 400px;   
 }
 .uniconnect button{
@@ -286,27 +286,48 @@ footer a{
 @media only screen and (max-width: 600) {
     #header{
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .nav{
+       width: 100%;
+    }
+    .nav ul{
+        width: 100%;
+    }
+    .nav a{
+        width: 100%;
     }
     .hero{
         display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto auto; 
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto; 
         margin-bottom: 60px;  
     }
     .bgc{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    .bgc img{
+        display: grid;
+        grid-column: 0;
+        grid-row: 1;
+        padding-left: 5px;
+        width: 100%;
+        height: auto;   
     }
     .nasa{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
     }
     .uniconnect{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
     }
 }
