@@ -85,13 +85,14 @@ body{
     font-size: 35px;
     padding-left: 20px;
 }
-.bgc h6{
+.bgc p{
     display: grid;
     grid-column: 4;
     grid-row: 0;
     font-family: 'optima';
     color: #333333;
     font-size: 15px;
+    font-weight: bold;
     padding-left: 20px;
 } 
 .bgc img{
@@ -137,13 +138,14 @@ body{
     font-size: 35px;
     padding-left: 20px;
 }
-.nasa h6{
+.nasa p{
     display: grid;
     grid-column: 4;
     grid-row: 1.25;
     font-family: 'optima';
     color: #333333;
     font-size: 15px;
+    font-weight: bold;
     padding-left: 20px;
 }
 .nasa img{
@@ -189,13 +191,14 @@ body{
     font-size: 35px;
     padding-left: 20px;
 }
-.uniconnect h6{
+.uniconnect p{
     display: grid;
     grid-column: 4;
     grid-row: 1.25;
     font-family: 'optima';
     color: #333333;
     font-size: 15px;
+    font-weight: bold;
     padding-left: 20px;
 }
 .uniconnect img{
